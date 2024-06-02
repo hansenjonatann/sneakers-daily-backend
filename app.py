@@ -8,7 +8,6 @@ app = Flask(__name__)
 # Melakukan pengambian data pikle
 model = pickle.load(open('sneakers.pkl' , 'rb'))
 
-
 # Membuat routing utama untuk testing 
 @app.route('/')
 def Home():
